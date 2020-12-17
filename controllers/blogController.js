@@ -1,5 +1,7 @@
 const fs = require("fs");
 const path = require("path");
+// const mongoose = require("mongoose");
+// const Blog = require("../models/taskSchema.js");
 const Blogs = require("../models/blogs.js");
 const AppError = require("../helpers/appErrorClass");
 const sendErrorMessage = require("../helpers/sendError");
@@ -32,5 +34,17 @@ const getBlogById = (req, res) => {
   }
 };
 
+//delete by id
+const deleteBlogById = (req, res) => {
+  const result = blogs.indexOf(blogs.id == req.param.id);
+  blogs.splice(index, 1);
+  if (index) {
+    sendResponse(200, "Successfull", [result], req, res);
+  } else {
+    sendErrorMessage(new AppError(404, "Not Found", "No such blog"), req, res);
+  }
+};
+
 module.exports.getAllBlogs = getAllBlogs;
 module.exports.getBlogById = getBlogById;
+module.exports.deleteBlogById = deleteBlogById;
