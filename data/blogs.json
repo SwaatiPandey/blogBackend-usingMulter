@@ -298,10 +298,10 @@
     "imageUrl": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
   },
   {
-    "id": "31j0z1oowkiu8fft2",
-    "author": "Swati",
-    "title": "this is to test the creation of new blog",
-    "content": "New Blog is Created ",
-    "imageUrl": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/uploads/1608293506483.jpeg"
+    "id": "31j0z57ckiuf37l3",
+    "author": "Author for this blog",
+    "title": "this is the title",
+    "content": "its the content",
+    "imageUrl": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/uploads/1608304693268.jpeg"
   }
 ]
