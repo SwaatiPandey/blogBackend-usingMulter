@@ -245,5 +245,63 @@
   {},
   {
     "id": "31j0z1lbnkiu6gwur"
+  },
+  {
+    "id": "31j0z1mhukiu7gm5m",
+    "author": "this is to test the creation of new blog",
+    "title": "new blog is created"
+  },
+  {
+    "id": "31j0z1mm8kiu7kdfm",
+    "author": "this is to test the creation of new blog",
+    "title": "new blog is created",
+    "links": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
+  },
+  {
+    "id": "31j0z1movkiu7lx8a",
+    "author": "this is to test the creation of new blog",
+    "title": "new blog is created",
+    "links": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
+  },
+  {
+    "id": "31j0z1mqjkiu7o2de",
+    "author": "this is to test the creation of new blog",
+    "title": "new blog is created",
+    "content": "",
+    "links": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
+  },
+  {
+    "id": "31j0z1msakiu7qf53",
+    "author": "this is to test the creation of new blog",
+    "title": "New Blog is Created ",
+    "content": "",
+    "links": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
+  },
+  {
+    "id": "31j0z1mx7kiu7uz8f",
+    "author": "this is to test the creation of new blog",
+    "title": "New Blog is Created ",
+    "content": "This is the link",
+    "links": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
+  },
+  {
+    "id": "31j0z1n5okiu7xfe2",
+    "author": "this is to test the creation of new blog",
+    "title": "New Blog is Created ",
+    "links": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
+  },
+  {
+    "id": "31j0z1odzkiu8bsq8",
+    "author": "Swati",
+    "title": "this is to test the creation of new blog",
+    "content": "New Blog is Created ",
+    "imageUrl": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/controllers"
+  },
+  {
+    "id": "31j0z1oowkiu8fft2",
+    "author": "Swati",
+    "title": "this is to test the creation of new blog",
+    "content": "New Blog is Created ",
+    "imageUrl": "/home/trainee/Desktop/nodetasks/02-blogBackend-UsingMulter/uploads/1608293506483.jpeg"
   }
 ]

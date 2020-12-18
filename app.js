@@ -1,6 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const multer = require("multer");
+// const multer = require("multer");
 dotenv.config({ path: "./config.env" });
 const router = require("./routes/blogRoutes");
 const { config } = require("process");

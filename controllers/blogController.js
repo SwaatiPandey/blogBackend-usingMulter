@@ -33,14 +33,13 @@ const getBlogById = (req, res) => {
 };
 //Create New Blog
 const createNewBlog = (req, res) => {
-  console.log(req.file);
-  console.log(path.join(__dirname));
+  const result = path.join(__dirname, "..", req.file.path);
   let newBlog = new Blogs(
     req.body.author,
     req.body.title,
     req.body.content,
     req.body.links,
-    req.body.imageUrl
+    result
   );
   blogs.push(newBlog);
   fs.writeFile(fileName, JSON.stringify(blogs, null, 2), (err) => {
